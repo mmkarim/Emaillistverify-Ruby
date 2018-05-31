@@ -2,7 +2,7 @@ require "email_list_verify/version"
 
 require 'rest-client'
 class EmailListVerify
-  BASE = 'https://app.emaillistverify.com/api'
+  BASE = 'https://apps.emaillistverify.com/api'
   ONE_BY_ONE_PATH = BASE + "/verifEmail"
   UPLOAD_FILE_PATH = BASE + "/verifApiFile"
   FILE_INFO_PATH = BASE + "/getApiFileInfo"
